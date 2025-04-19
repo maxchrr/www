@@ -1,0 +1,16 @@
+body {
+	background-color: #4e3246;
+	color: #9b8816;
+	font-family: 'comic_monobold', ui-monospace, monospace;
+	font-size: 1.4rem;
+}
+h1 {
+	font-size: 4rem;
+}
+button {
+	position: absolute;	
+	top: 20px;
+	right: 40px;
+	font-family: 'comic_monobold', ui-monospace, monospace;
+	font-size: 1.2rem;
+}
