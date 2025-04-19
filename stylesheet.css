@@ -7,10 +7,17 @@ body {
 h1 {
 	font-size: 4rem;
 }
-button {
+.button {
 	position: absolute;	
 	top: 20px;
 	right: 40px;
 	font-family: 'comic_monobold', ui-monospace, monospace;
 	font-size: 1.2rem;
+	display: inline-block;
+	padding: 10px 20px;
+	background-color: #5d3a00;
+	color: #f9ea9a;
+	text-decoration: none;
+	border: 1px solid #f98948;
+	border-radius: 5px;
 }
