@@ -1,23 +1,44 @@
 body {
-	background-color: #4e3246;
-	color: #9b8816;
+	background-color: #f1e9df;
+	color: #89a06b;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
 	font-family: 'comic_monobold', ui-monospace, monospace;
 	font-size: 1.4rem;
 }
-h1 {
-	font-size: 4rem;
+header {
+	margin: 30px;
+	padding: 0 18%;
+	border-bottom: 1px solid #a89a8e;
 }
-.button {
-	position: absolute;	
-	top: 20px;
-	right: 40px;
+h1 {
+	text-align: center;
+	font-size: 3.2rem;
+	letter-spacing: 0.5rem;
+}
+nav {
+	margin: 10px;
+}
+nav aside {
+	zoom: 60%;
+}
+nav aside a {
+	text-align: center;
 	font-family: 'comic_monobold', ui-monospace, monospace;
 	font-size: 1.2rem;
 	display: inline-block;
 	padding: 10px 20px;
-	background-color: #5d3a00;
-	color: #f9ea9a;
+	background-color: #a89a8e;
+	color: black;
 	text-decoration: none;
-	border: 1px solid #f98948;
+	border: none;
 	border-radius: 5px;
+}
+nav ul {
+	margin-top: 10px;
+	display: flex;
+	justify-content: space-around;
+	font-size: 1rem;
 }
