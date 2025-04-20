@@ -1,3 +1,6 @@
+:root {
+	--system-ui: 'comic_monobold', ui-monospace, Menlo, Consolas, Monaco, Liberation Mono, Lucida Console, monospace;
+}
 body {
 	background-color: #f1e9df;
 	color: #89a06b;
@@ -6,7 +9,7 @@ body {
 	flex-direction: column;
 	align-items: center;
 	gap: 30px;
-	font-family: 'comic_monobold', ui-monospace, monospace;
+	font-family: var(--system-ui);
 	font-size: 1.4em;
 }
 header {
@@ -25,7 +28,7 @@ nav aside {
 }
 nav aside a {
 	text-align: center;
-	font-family: 'comic_monobold', ui-monospace, monospace;
+	font-family: var(--system-ui);
 	font-size: 1.2rem;
 	display: inline-block;
 	padding: 10px 20px;
