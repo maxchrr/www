@@ -1,25 +1,24 @@
 body {
 	background-color: #f1e9df;
 	color: #89a06b;
+	margin: 30px 20%;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	justify-content: center;
+	gap: 30px;
 	font-family: 'comic_monobold', ui-monospace, monospace;
-	font-size: 1.4rem;
+	font-size: 1.4em;
 }
 header {
-	margin: 30px;
+	align-self: center;
 	padding: 0 18%;
+	padding-bottom: 20px;
 	border-bottom: 1px solid #a89a8e;
 }
 h1 {
 	text-align: center;
 	font-size: 3.2rem;
 	letter-spacing: 0.5rem;
-}
-nav {
-	margin: 10px;
 }
 nav aside {
 	zoom: 60%;
@@ -39,6 +38,12 @@ nav aside a {
 nav ul {
 	margin-top: 10px;
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-evenly;
 	font-size: 1rem;
+}
+footer {
+	align-self: center;
+	padding: 20px 18%;
+	border-top: 1px solid #a89a8e;
+	font-size: 0.8rem
 }
