@@ -2,7 +2,7 @@ body {
 	background-color: #f1e9df;
 	width: 960px;
 	margin: 0 auto;
-	padding-top: 60px;
+	padding: 60px 0 60px 0;
 	display: grid;
 	grid-template-columns: repeat(5, 1fr);
 	gap: 60px;
