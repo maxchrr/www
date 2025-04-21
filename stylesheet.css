@@ -1,36 +1,62 @@
-:root {
-	--system-ui: 'comic_monobold', ui-monospace, Menlo, Consolas, Monaco, Liberation Mono, Lucida Console, monospace;
-}
 body {
 	background-color: #f1e9df;
-	color: #89a06b;
-	margin: 30px 20%;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	gap: 30px;
-	font-family: var(--system-ui);
-	font-size: 1.4em;
+	width: 960px;
+	margin: 0 auto;
+	padding-top: 60px;
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+	gap: 60px;
+	font-size: 1.1rem;
 }
 header {
-	align-self: center;
-	padding: 0 18%;
-	padding-bottom: 20px;
-	border-bottom: 1px solid #a89a8e;
+	width: 160px;
+	margin: 0 10px;
+	grid-column: 1 / 2;
 }
-h1 {
-	text-align: center;
-	font-size: 3.2rem;
-	letter-spacing: 0.5rem;
+header h1 {
+	color: #181818;
+	margin-bottom: 20px;
+	font-size: 2.13rem;
+	line-height: 34px;
+	letter-spacing: -1px;
 }
-nav menu {
-	margin-top: 10px;
-	font-size: 1rem;
+header nav menu {
 	list-style-type: none;
 }
+header nav menu li {
+	margin-bottom: 10px;
+	line-height: 18px;
+}
+header nav menu a {
+	color: #555;
+	font-size: 0.95rem;
+	font-weight: bold;
+	text-decoration: none;
+}
+main {
+	margin: 0 10px;
+	grid-column: 2 / 6;
+}
+main h2, main a {
+	color: #333;
+	margin-bottom: 30px;
+	font-weight: bold;
+}
+main p {
+	margin-bottom: 20px;
+	text-align: justify;
+}
+main p.no-margin {
+	margin-bottom: 0;
+}
+main ol {
+	margin: 5px 0 20px 10px;
+	list-style: decimal inside;
+}
 footer {
-	align-self: center;
-	padding: 20px 18%;
-	border-top: 1px solid #a89a8e;
-	font-size: 0.8rem
+	margin: 0 10px;
+	grid-column: 1 / 6;
+}
+footer address, footer p, footer a {
+	color: #555;
 }
