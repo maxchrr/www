@@ -38,11 +38,10 @@ nav aside a {
 	border: none;
 	border-radius: 5px;
 }
-nav ul {
+nav menu {
 	margin-top: 10px;
-	display: flex;
-	justify-content: space-evenly;
 	font-size: 1rem;
+	list-style-type: none;
 }
 footer {
 	align-self: center;
