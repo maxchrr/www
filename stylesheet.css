@@ -1,3 +1,8 @@
+:root {
+	--system-ui: ui-serif, Charter, 'Bitstream Charter', 'Sitka Text', Cambria, serif;; 
+	-webkit-font-smoothing: antialiased;
+ 	-moz-osx-font-smoothing: grayscale;
+}
 body {
 	background-color: #f1e9df;
 	width: 960px;
@@ -6,6 +11,8 @@ body {
 	display: grid;
 	grid-template-columns: repeat(5, 1fr);
 	gap: 60px;
+	font-family: var(--system-ui);
+	font-weight: normal; /* 400 */
 	font-size: 1.1rem;
 }
 header {
@@ -29,8 +36,8 @@ header nav menu li {
 }
 header nav menu a {
 	color: #555;
+	font-weight: bold; /* 700 */
 	font-size: 0.95rem;
-	font-weight: bold;
 	text-decoration: none;
 }
 main {
@@ -40,7 +47,7 @@ main {
 main h2, main a {
 	color: #333;
 	margin-bottom: 30px;
-	font-weight: bold;
+	font-weight: bold; /* 700 */
 }
 main p {
 	margin-bottom: 20px;
